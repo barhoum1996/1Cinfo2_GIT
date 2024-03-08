@@ -1,0 +1,45 @@
+$ git init
+Initialized empty Git repository in C:/Users/Barhouma/Desktop/test/.git/
+----------------------------------------------------------------------------------------
+$ git add .
+----------------------------------------------------------------------------------------
+$ git commit -m "main"
+
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Barhouma@DESKTOP-F2BE3T0.(none)')
+----------------------------------------------------------------------------------------
+$  git config --global user.email "ibrahimkhelifi.20@gmail.com"
+----------------------------------------------------------------------------------------
+$ git config --global user.name "barhouma1996"
+----------------------------------------------------------------------------------------
+$ git commit -m "main"
+
+[master (root-commit) 8205c64] main
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test1.txt
+----------------------------------------------------------------------------------------
+$ git branch -M "main"
+----------------------------------------------------------------------------------------
+$ git remote add 1Cinfo2_GIT https://github.com/barhoum1996/1Cinfo2_GIT.git
+----------------------------------------------------------------------------------------
+$ git push -u 1Cinfo2_GIT main
+
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 212 bytes | 212.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/barhoum1996/1Cinfo2_GIT.git
+ * [new branch]      main -> main
+branch 'main' set up to track '1Cinfo2_GIT/main'.
